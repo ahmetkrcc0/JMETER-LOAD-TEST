@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+DELETEUSER,630,153,6,1610,85.78,1.270%,.64438,0.26,0.16,417.4
+TOTAL,630,153,6,1610,85.78,1.270%,.64438,0.26,0.16,417.4

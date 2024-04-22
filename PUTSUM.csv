@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+GETUSER,33,520,389,1896,297.19,6.061%,1.50082,0.95,0.57,646.9
+PUTUSER,832,147,9,714,56.43,1.082%,.60029,0.24,0.24,415.1
+TOTAL,865,162,9,1896,107.32,1.272%,.59868,0.25,0.24,424.0

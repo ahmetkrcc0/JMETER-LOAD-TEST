@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+POSTUSER,3971,143,23,1603,58.98,0.277%,2.01547,0.77,0.79,389.7
+TOTAL,3971,143,23,1603,58.98,0.277%,2.01547,0.77,0.79,389.7

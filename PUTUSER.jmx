@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PUTUSER">
+      <stringProp name="HTTPSampler.domain">petstore.swagger.io</stringProp>
+      <stringProp name="HTTPSampler.protocol">https</stringProp>
+      <stringProp name="HTTPSampler.path">/v2/user/ilk</stringProp>
+      <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+      <stringProp name="HTTPSampler.method">PUT</stringProp>
+      <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+      <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+      <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="" elementType="HTTPArgument">
+            <boolProp name="HTTPArgument.always_encode">false</boolProp>
+            <stringProp name="Argument.value">{&#xd;
+  &quot;id&quot;: 123123,&#xd;
+  &quot;username&quot;: &quot;ilk&quot;,&#xd;
+  &quot;firstName&quot;: &quot;asdasda&quot;,&#xd;
+  &quot;lastName&quot;: &quot;asdasd&quot;,&#xd;
+  &quot;email&quot;: &quot;asdads@asdasd.com&quot;,&#xd;
+  &quot;password&quot;: &quot;12312312&quot;,&#xd;
+  &quot;phone&quot;: &quot;1231231231&quot;,&#xd;
+  &quot;userStatus&quot;: 0&#xd;
+}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+    </HTTPSamplerProxy>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
